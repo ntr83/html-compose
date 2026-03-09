@@ -1,0 +1,7 @@
+<header>
+    <nav>Header component ${props.customProps}</nav>
+
+    ${ iff(props.loggedIn, `
+        <p>${props.loggedIn}</p>
+    `) }
+</header>

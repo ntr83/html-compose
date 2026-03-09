@@ -1,0 +1,41 @@
+{
+  "name": "html-compose",
+  "version": "1.0.1",
+  "description": "Static HTML builder with component-style includes, props and watch mode.",
+  "author": "Jeno <ntr83> Horvath",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntr83/html-compose.git"
+  },
+  "homepage": "https://github.com/ntr83/html-compose#readme",
+  "bugs": {
+    "url": "https://github.com/ntr83/html-compose/issues"
+  },
+  "bin": {
+    "html-compose": "./bin/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "node ./bin/cli.js src dist"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "html",
+    "template",
+    "static-site",
+    "components",
+    "include",
+    "html-builder"
+  ],
+  "dependencies": {
+    "node-watch": "^0.7.4"
+  },
+  "private": false,
+  "license": "MIT"
+}
